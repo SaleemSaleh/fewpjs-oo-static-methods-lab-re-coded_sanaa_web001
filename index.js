@@ -9,7 +9,7 @@ class Formatter {
   static titleize  (str) {
       str = str.toLowerCase().split(' ');
       for (var i = 0; i < str.length; i++) {
-        if ( str[i] ==='an' || str[i] ==='but' || str[i] ==='of' ||
+        if (str[i] ==='a' || str[i] ==='an' || str[i] ==='but' || str[i] ==='of' ||
         str[i] ==='and' || str[i] ==='for' || str[i] ==='at' ||
         str[i] ==='by' || str[i] ==='from' || str[i] ==='the') {
 
