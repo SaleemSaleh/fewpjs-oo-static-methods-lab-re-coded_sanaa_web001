@@ -12,12 +12,11 @@ class Formatter {
         if (str[i] ==='a' || str[i] ==='an' || str[i] ==='but' || str[i] ==='of' ||
         str[i] ==='and' || str[i] ==='for' || str[i] ==='at' ||
         str[i] ==='by' || str[i] ==='from') {
-          
+
         }else {
-          str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+          str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
         }
       }
       return str.join(' ');
     }
 }
-
